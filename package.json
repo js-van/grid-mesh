@@ -1,0 +1,23 @@
+{
+  "name": "grid-mesh",
+  "version": "0.0.0",
+  "description": "Creates a simplicial complex for a plane.",
+  "main": "grid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/grid-mesh.git"
+  },
+  "keywords": [
+    "grid",
+    "mesh",
+    "simplicial",
+    "complex"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "c98e0626c48a1f4597bb294016b4a5f8dea8cc1a"
+}
