@@ -13,6 +13,14 @@ require("tap").test("grid-mesh", function(t) {
   
   t.equals(advanced_grid.positions.length, 12)
   t.equals(advanced_grid.cells.length, 12)
+  
+  for(var i=0; i<10; ++i) {
+    for(var j=0; j<10; ++j) {
+      var g = grid(i,j)
+      t.equals(g.positions.length, (i+1) * (j+1))
+      t.equals(g.cells.length, 2 * i * j)
+    }
+  }
 
   t.end()
 })
