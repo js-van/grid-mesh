@@ -1,10 +1,13 @@
 {
   "name": "grid-mesh",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Creates a simplicial complex for a plane.",
   "main": "grid.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
   },
   "repository": {
     "type": "git",
